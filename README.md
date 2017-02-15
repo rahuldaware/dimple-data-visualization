@@ -15,8 +15,18 @@ I have drawn the following plots to visualize the survival rate.
 ### Feedback
 The HTML file before feedback is "index_initial.html".  
 
-I obtained following feedbacks : 
+I received following feedbacks : 
 
+1. Good Job. I would suggest you to add some lines explaining each plot. It would be interesting to see a storyline here. Also, headings are missing.  
+2. I can understand the plot even before loooking into dataset. Please allign the plots in center and make the flow look like a story.  
+3. I am seeing you are using basic color scheme of Dimple.js. I would suggest to make the plots with better color scheme. Some polishing work required.
+
+Changes after Feedback:  
+I made following changes in "index_final.html" to incorporate above valuable feedbacks.
+
+1. I added explanations and explain each plot.
+2. I alligned the plots in the center.
+3. I made changes to the color scheme and made it more attractive.
 
 ### Resources
 -  [Titanic Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2016/September/57e9a84c_titanic-data/titanic-data.csv)
