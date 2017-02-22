@@ -6,7 +6,7 @@ d3.csv("data/age-distribution.csv", function(data){                         // L
     var chart = new dimple.chart(svg1, data);                               // Create new chart variable with the data
     x = chart.addCategoryAxis("x", "Age Group");                            // Add x category axis
     x.addOrderRule(["0-15", "15-30", "30-45", "45-60", "more than 60"]);    // Ordering x scale
-    var axis = chart.addMeasureAxis("y", "Survival Rate in Percentage");                             // Add Y axis
+    var axis = chart.addMeasureAxis("y", "Survival Rate in Percentage");    // Add Y axis
     chart.addSeries(null,dimple.plot.scatter);                              // Add first plot as points
     chart.addSeries(null,dimple.plot.line);                                 // Add second plot as a line plot
     axis.overrideMin = 0;
